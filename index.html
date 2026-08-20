@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goodie Drop Promotions | Experiential Marketing & Fulfillment</title>
+  <style>
+    :root {
+      --bg-color: #0b0f19;
+      --card-bg: #151c2e;
+      --text-main: #ffffff;
+      --text-muted: #94a3b8;
+      --accent: #ff4757;
+      --accent-hover: #ff6b81;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      line-height: 1.6;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .logo-img {
+      height: 40px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      margin-left: 1.5rem;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: var(--text-main);
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 5rem;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      background: rgba(255, 71, 87, 0.1);
+      color: var(--accent);
+      border-radius: 50px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      letter-spacing: -0.02em;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto 2rem auto;
+    }
+
+    .cta-btn {
+      background-color: var(--accent);
+      color: white;
+      border: none;
+      padding: 0.8rem 1.8rem;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    .cta-btn:hover {
+      background-color: var(--accent-hover);
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      padding: 2rem;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .card h3 {
+      margin-bottom: 0.75rem;
+      font-size: 1.25rem;
+    }
+
+    .card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: var(--text-muted);
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="IMG_0367.png" alt="Goodie Drop Logo" class="logo-img">
+      <span>Goodie Drop</span>
+    </div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <span class="badge">Next-Gen Experiential Marketing</span>
+      <h1>Delivering Products Worth Trying</h1>
+      <p>Goodie Drop Promotions is a leading experiential marketing and promotional fulfillment agency. We specialize in curating high-impact brand activations and surprise consumer delivery campaigns worldwide.</p>
+      <button class="cta-btn" onclick="alert('DNS Server Not Responding. This Website Is Currently Unavailable.')">Claim Your Drop</button>
+    </section>
+
+    <section class="services" id="services">
+      <div class="card">
+        <h3>Global Fulfillment</h3>
+        <p>Seamlessly dispatching promotional materials, custom merchandise, and VIP packages worldwide with enterprise-grade reliability and tracking.</p>
+      </div>
+      <div class="card">
+        <h3>Brand Activation</h3>
+        <p>Connecting modern brands with target audiences through unforgettable physical engagement strategies, unboxing experiences, and live campaigns.</p>
+      </div>
+      <div class="card">
+        <h3>Custom Curation</h3>
+        <p>Tailor-made promotional drops designed from scratch to reflect your brand's unique identity and drive authentic social sharing.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Goodie Drop Promotions LLC. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
